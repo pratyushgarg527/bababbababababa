@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dbdbdb;
+}
+
+.navbar {
+  margin-bottom: 0.1%;
+  background-color: rgb(8, 0, 255);
+  width: auto;
+  height: 50px;
+}
+
+/* .laptop1,.tv1 {
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+  width: fit-content;
+  display: inline-block;
+} */
+
+.laptop1 {
+  background-color: rgb(225, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  margin: 0.5%;
+  height: 80vh;
+  width: 49%;
+}
+.row {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv1 {
+  background: linear-gradient(
+    to right,
+    rgba(0, 140, 255, 0.126),
+    rgba(0, 149, 255, 0.584)
+  );
+  font-size: 30px;
+  text-align: center;
+  margin: 0.5%;
+  min-height: 80vh;
+  width: 49%;
+}
+.tv1 img {
+  height: 43vh;
+}
+.laptop1 p.heading,
+.tv1 p.heading {
+  font-weight: 600;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+.laptop1,
+.tv1 {
+  display: inline-block;
+}
+
+.laptop1 button,
+.tv1 button {
+  margin-left: auto;
+  font-size: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: #0077ed;
+  border-radius: 20px;
+  color: rgb(189, 255, 242);
+  border-color: rgba(0, 0, 255, 0);
+  transition: 500ms;
+}
+
+.laptop1 button:hover,
+.tv1 button:hover {
+  width: 200px;
+  background-color: rgb(67, 50, 255);
+  color: #a0f4ff;
+  cursor: pointer;
+}
+
+.laptop1 {
+  background: linear-gradient(
+    to right,
+    rgba(0, 149, 255, 0.584),
+    rgba(0, 140, 255, 0.126)
+  );
+  font-size: 30px;
+  text-align: center;
+  margin: 0.5%;
+  height: 80vh;
+  width: 49%;
+}
+
+.monitor2 {
+  background: linear-gradient(
+    to right,
+    rgba(195, 255, 0, 0.584),
+    rgba(0, 255, 183, 0.5)
+  );
+  font-size: 30px;
+  text-align: center;
+  margin: 0.5%;
+  height: 80vh;
+  width: 100%;
+}
+
+.row2 {
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row2 >.image{
+  height: 20vh;
+}
